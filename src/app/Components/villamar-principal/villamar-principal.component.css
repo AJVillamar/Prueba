@@ -1,0 +1,4 @@
+.container-fluid{
+    height: 90vh;
+    background-image: linear-gradient(to bottom, #3f51b5, #7879c8, #a7a3da, #d4d0ed, #ffffff);
+}

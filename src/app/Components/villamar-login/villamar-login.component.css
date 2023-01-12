@@ -1,0 +1,60 @@
+.container-fluid{
+    height: 90vh;
+    background-image: linear-gradient(to bottom, #3f51b5, #7879c8, #a7a3da, #d4d0ed, #ffffff);
+}
+
+.login-card{
+    width: 100%;
+    max-width: 400px;
+    padding: 70px 30px 44px;
+    border-radius: 24px;
+    background: #ffffff;
+    text-align: center;
+}
+
+
+.login-card > h2{
+    margin: 0 0 12px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.login-card > h3{
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.login-form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 20px;
+}
+
+.login-form > a{
+    color: #216ce7;
+}
+
+.login-form > input,
+.login-form > button{
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    border-radius: 8px;
+}
+
+.login-form > input{
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+
+.login-form > button{
+    width: 100%;
+    height: 56px;
+    border: 0;
+    background: #216ce7;
+    color: #f9f9f9;
+    font-weight: 600;
+}

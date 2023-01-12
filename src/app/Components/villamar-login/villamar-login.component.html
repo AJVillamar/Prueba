@@ -1,0 +1,12 @@
+<div class="container-fluid d-flex justify-content-center align-items-center w-100">
+    <div class="login-card">
+        <h2>Login</h2>
+        <h3>Ingrese Credenciales</h3>
+        <form class="login-form" [formGroup]="form" (ngSubmit)="ingresar()">
+            <input type="text" placeholder="Usuario" formControlName="usuario">
+            <input type="password" placeholder="Contraseña" formControlName="password">
+            <a href="#">Forgot your password?</a>
+            <button>LOGIN</button>
+        </form>
+    </div>
+</div>
